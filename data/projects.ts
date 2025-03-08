@@ -33,7 +33,7 @@ export const projectsData: ProjectItem[] = [
   },
   {
     image: "/teammate_logo.png",
-    title: "Teammate Desktop application",
+    title: "Teammate Desktop Applikation",
     description: "Nem måde at kommunikere med dine kollegaer",
     content:
       "Informationssystem til at kommunikere med dine kollegaer, send og modtag vigtige beskeder",
