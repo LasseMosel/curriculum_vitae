@@ -8,7 +8,7 @@ export default function MenuBar() {
     <div>
       <TabsList className="grid w-full grid-cols-3 mb-8">
         <TabsTrigger className="w-full" value="experience">
-          Erfaring & Uddannelse
+          Erfaring
         </TabsTrigger>
         <TabsTrigger className="w-full" value="skills">
           Færdigheder

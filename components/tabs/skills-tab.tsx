@@ -6,9 +6,7 @@ import { TabsContent } from "@/components/ui/tabs";
 export default function SkillsTab() {
   return (
     <TabsContent value="skills" className="space-y-4">
-      <h2 className="text-2xl font-bold mb-4 text-center">
-        Færdigheder & Kompetencer
-      </h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Færdigheder</h2>
       <div className="mx-20">
         <Card className="mb-4">
           <CardContent className="space-y-4">
