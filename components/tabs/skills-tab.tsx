@@ -12,6 +12,13 @@ export default function SkillsTab() {
     { name: "CSS", level: 85 },
   ];
 
+  const softSkills = [
+    { name: "Hold spiller", level: 90 },
+    { name: "Kommunikation ", level: 75 },
+    { name: "Agile/Scrum", level: 85 },
+    { name: "Buddy", level: 95 },
+  ];
+
   return (
     <TabsContent value="skills" className="space-y-4">
       <h2 className="text-2xl font-bold mb-4 text-center">Færdigheder</h2>
@@ -30,13 +37,11 @@ export default function SkillsTab() {
           </CardContent>
         </Card>
         <div className="flex flex-wrap gap-2">
-          {["Hold spiller", "Kommunikation ", "Agile/Scrum", "Buddy"].map(
-            (skill) => (
-              <Badge key={skill} className="bg-muted text-gray-500">
-                {skill}
-              </Badge>
-            )
-          )}
+          {softSkills.map((skill) => (
+            <Badge key={skill.name} className="bg-muted text-gray-500">
+              {skill.name}
+            </Badge>
+          ))}
         </div>
       </div>
     </TabsContent>
