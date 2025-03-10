@@ -18,7 +18,7 @@ export default function Header() {
         </Avatar>
         <div className="text-center md:text-left">
           <h1 className="text-3xl font-bold uppercase">Lasse Bjørn Mosel</h1>
-          <p className="text-xl text-muted-foreground uppercase">
+          <p className="text-xl text-gray-500 uppercase">
             Frontend Software Engineer
           </p>
           <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-2">
@@ -41,11 +41,7 @@ export default function Header() {
       </div>
 
       <div className="flex flex-row md:flex-row items-center gap-2">
-        <a
-          href="https://www.linkedin.com/in/lassebmosel/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://www.linkedin.com/in/lassebmosel/" target="_blank">
           <Linkedin className="mr-2 h-4 w-4" />
         </a>
 

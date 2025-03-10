@@ -32,7 +32,6 @@ export const projectsData: ProjectItem[] = [
     technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Netlify"],
   },
   {
-    image: "/teammate_logo.png",
     title: "Teammate Desktop Applikation",
     description: "Nem måde at kommunikere med dine kollegaer",
     content:

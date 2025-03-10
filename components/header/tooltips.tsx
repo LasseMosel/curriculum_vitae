@@ -13,17 +13,15 @@ type TooltipProps = {
 
 export default function Tooltips({ children, text }: TooltipProps) {
   return (
-    <div>
-      <TooltipProvider>
-        <Tooltip>
-          <TooltipTrigger>
-            <Badge className="flex items-center gap-1">{children}</Badge>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>{text}</p>
-          </TooltipContent>
-        </Tooltip>
-      </TooltipProvider>
-    </div>
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger>
+          <Badge className="flex items-center gap-1">{children}</Badge>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>{text}</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
   );
 }
